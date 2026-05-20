@@ -1,0 +1,32 @@
+<div class="header-container">
+    <div class="logo">
+        <h1>🏎️ CarVault</h1>
+        <p>your dream garage in photos</p>
+    </div>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="🔍 Search by brand or model...">
+    </div>
+    <div class="filter-buttons" id="filterContainer">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="sports">Sports</button>
+        <button class="filter-btn" data-filter="luxury">Luxury</button>
+        <button class="filter-btn" data-filter="suv">SUV / Offroad</button>
+        <button class="filter-btn" data-filter="classic">Classic</button>
+    </div>
+</div>
+
+<div class="stats">
+    <span>📸 <span id="carCount">0</span> cars displayed</span>
+    <span class="favorites-count">❤️ <span id="favCount">0</span> favorites</span>
+</div>
+
+<div class="car-grid" id="carGrid"></div>
+
+<footer>
+    <p>Click any car photo to zoom | ❤️ save your favorites (auto-saved)</p>
+</footer>
+
+<div class="lightbox" id="lightbox">
+    <button class="close-lightbox" id="closeLightbox">✕</button>
+    <img id="lightboxImg" src="" alt="Full size car">
+</div>
